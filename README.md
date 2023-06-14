@@ -20,6 +20,20 @@
 - Configure your GCP credentials
 - `gcloud auth login`
 - Build The Dockerfile and push it
+
 - Run Terraform files
-- `terraform init
-terraform apply`
+- `terraform init`
+- `terraform apply`
+
+- Connect to the GKE private cluster
+- `gcloud container clusters get-credentials <cluster_name> --zone <zone> --project <project_id>`
+  
+- Copy the provided k8s files and run them by:
+- `kubectl apply -f <file-name>`
+
+Run the following command to get the IP Address of your Application
+`kubectl get all`
+
+Copy the IP address of LoadBalancer and insert it in your browser to access the Application!
+
+Now Your Infrastructure & Application Is Up and Running !!
