@@ -25,15 +25,19 @@
 - `terraform init`
 - `terraform apply`
 
-- Connect to the GKE private cluster
+Connect to the GKE private cluster
 - `gcloud container clusters get-credentials <cluster_name> --zone <zone> --project <project_id>`
   
-- Copy the provided k8s files and run them by:
+Copy the provided k8s files and run them by:
 - `kubectl apply -f <file-name>`
 
-Run the following command to get the IP Address of your Application
-`kubectl get all`
+- Run the following command to get the IP Address of your Application
+- `kubectl get all`
 
 Copy the IP address of LoadBalancer and insert it in your browser to access the Application!
 
 Now Your Infrastructure & Application Is Up and Running !!
+-------------
+Remember, to run this pipeline, you will need to configure your GCP personal credentials locally on the Jenkins master machine. You can do this by following the GCP documentation on setting up authentication for your environment.
+
+# Thank you
