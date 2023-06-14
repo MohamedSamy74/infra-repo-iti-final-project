@@ -9,13 +9,17 @@
 - Docker
 - Shell script
 # Getting Started
-1- Setup your GCP account
-2- Make sure to install the required tools such as (Terraform, and Docker)
+- Setup your GCP account
+- Make sure to install the required tools such as (Terraform, and Docker)
 # Prerequisites
 - Install Terraform
 - GCP Account
 - Master Jenkins Up and Running
 # Installation
-Clone This Repo
-Configure your GCP credentials
-`gcloud auth login`
+- Clone This Repo
+- Configure your GCP credentials
+- `gcloud auth login`
+- Build The Dockerfile and push it
+- Run Terraform files
+- `terraform init
+terraform apply`
