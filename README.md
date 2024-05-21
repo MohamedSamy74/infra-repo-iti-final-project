@@ -43,3 +43,4 @@ Remember, to run this pipeline, you will need to configure your GCP personal cre
 
 note: I attached the documentation links that I used in each file.
 # Thank you
+# see you
